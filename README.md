@@ -68,8 +68,21 @@ PNP circiut [picture](https://imgur.com/gallery/RgALv6K)
 
 ...3.3  to measure the base voltage of the sensor transistor i had to make a conection from sig and gnd to the multi reader to take a voltage reading. [Here](https://imgur.com/gallery/9w0xKla) is my setup, the measuremts were all close to the same, fully dry soil is 6, somewhat wet soil 345, and fully soaked soil 765.
 
+...3.4 Not sure how to upload the javascript file but here is my code
+basic.forever(() => {
+    let value = pins.analogReadPin(AnalogPin.P1)
+    basic.showNumber(value)
+    pins.digitalWritePin(DigitalPin.P8, 1);
+    input.onButtonPressed(Button.A, function () {
+        pins.analogWritePin(AnalogPin.P12, 1023)
+    })
 
 
+});
+this was a very challeging part of the project that i could barley do because i didnnt realize the concetion to the software after some time I got it but im not sure if i  did it correct. [video](https://imgur.com/a/LSO2Suh)
+
+
+...3.5
 
 
 
