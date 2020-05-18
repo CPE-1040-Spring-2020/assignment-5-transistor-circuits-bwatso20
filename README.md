@@ -36,6 +36,7 @@ measurments with the switch turned on,
 
 6. the three currents of the collector, base and emitter are similar and they help share the load of the current. 
 7. the ratio in this case would be 6.8/,375 which is a ration of 18 to 1
+8. My NPN circuit [picture](https://imgur.com/gallery/J8gaPvO)
 
 PNP transistor
 measurments of the voltage with the switch off, PNP
@@ -51,14 +52,21 @@ the currents with the switch off, PNP
 
 Measurments with the switch turned on, PNP
 1. voltage of resistor 2.5 mV
-2. the voltage of collector 2.09mV
+1. the voltage of collector 2.09mV
 3. the voltage of base is 4.548v
 4. the voltage of emitter is 5v
 5. the current of collector is 7.87uA
 6. the emitter current is 11.5uA
 7. the base current is 3.8uA
 
+PNP circiut [picture](https://imgur.com/gallery/RgALv6K)
 
+**3. soil sensor**
+...3.1 From looking at the schematic it looks as if the soil sensor works by seding a signal across the soil and to the opposite prong and read the voltage transfered. 
+
+...3.2 to me fully soaked means  completely covered in water to be specific. There is max connectitivy so to measure the resistance in fully soaked soil the conection would need to be positive fully dry soil is 6, somewhat wet soil 292, and fully soaked soil 789. the set up looks like [this](https://imgur.com/gallery/OztG61S)
+
+...3.3  to measure the base voltage of the sensor transistor i had to make a conection from sig and gnd to the multi reader to take a voltage reading. [Here](https://imgur.com/gallery/9w0xKla) is my setup, the measuremts were all close to the same, fully dry soil is 6, somewhat wet soil 345, and fully soaked soil 765.
 
 
 
